@@ -1,0 +1,37 @@
+.form-container{
+   margin: 4rem 4rem;
+   text-align: center;
+}
+.form-container form{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin: auto;
+   padding-top: 2rem;
+}
+
+.form-container input{
+   height: 2.5rem;
+   padding: 1rem;
+   margin-bottom: 2rem;
+   border: 1px solid #000;
+   border-radius: 0.5rem;
+}
+.form-container textarea{
+   padding: 1rem;
+   margin-bottom: 2rem;
+   border: 1px solid #000;
+   border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+   .form-container{
+      margin: 4rem 3rem;
+   }
+   .form-container form{
+      width: 90%;
+   }
+   .form-container button{
+      display: block;
+   }
+}
